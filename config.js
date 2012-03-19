@@ -4,8 +4,9 @@ var config = {};
 config.couchOpts = {
     host: 'localhost',
     port: 5984,
-    db: 'cache',
-    heartbeat: 10000
+    db: 'test-notif',
+    heartbeat: 10000,
+    log: false
 };
 
 
